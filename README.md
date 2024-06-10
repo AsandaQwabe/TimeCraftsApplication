@@ -38,7 +38,7 @@ TimeCrafts is a time management and tracking application designed to help users 
 ## Youtube Video
 
 Here in this link, you'll see our application working on an android phone. You'll get a demo of how the app works.
-[![Youtube](https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white)](https://twitter.com/) 
+[![Youtube](https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=ZghvDtMuDGY&authuser=0) 
 
 
 
