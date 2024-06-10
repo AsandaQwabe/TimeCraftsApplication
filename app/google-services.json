@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1091443734801",
+    "project_id": "timecraftsapp",
+    "storage_bucket": "timecraftsapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1091443734801:android:2c6cfd2d1beae77f9bf4b0",
+        "android_client_info": {
+          "package_name": "com.example.timecrafts"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCPxvcqBzHeToFwd1o3KgeopY9gNQOkgg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/white"
+    tools:context=".Menu">
+
+    <LinearLayout
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/ombre_background"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/mm"
+            android:layout_width="108dp"
+            android:layout_height="83dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/signin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="50dp"
+            android:gravity="center"
+            android:text="TimeCrafts"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="1dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btTimesheet"
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginHorizontal="13dp"
+            android:backgroundTint="@color/black"
+            android:text="Timesheet"/>
+
+        <Button
+            android:id="@+id/btCalendar"
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginHorizontal="13dp"
+            android:backgroundTint="@color/black"
+            android:text="Calendar"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="1dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btTimer"
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginHorizontal="13dp"
+            android:backgroundTint="@color/black"
+            android:text="Timer" />
+
+        <Button
+            android:id="@+id/btEntryList"
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginHorizontal="13dp"
+            android:backgroundTint="@color/black"
+            android:text="Entry List"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="1dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btAnalytics"
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginHorizontal="13dp"
+            android:backgroundTint="@color/black"
+            android:text="Analytics" />
+
+        <Button
+            android:id="@+id/btGraph"
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginHorizontal="13dp"
+            android:backgroundTint="@color/black"
+            android:text="Graph" />
+    </TableRow>
+
+    <ImageView
+        android:id="@+id/tmImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/tm"
+        />
+
+</LinearLayout>
